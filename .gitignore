@@ -1,0 +1,8 @@
+ag_automm_tutorial_imgcls
+tmp
+data
+model
+timm
+backup
+.env
+train_EfficientNetB2_100_trials_2024-12-06_11-02-58

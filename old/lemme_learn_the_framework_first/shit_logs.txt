@@ -1,0 +1,692 @@
++-----------------------------------------------------------------------------------+
+| Configuration for experiment     744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee   |
++-----------------------------------------------------------------------------------+
+| Search algorithm                 SearchGenerator                                  |
+| Scheduler                        AsyncHyperBandScheduler                          |
+| Number of trials                 5                                                |
++-----------------------------------------------------------------------------------+
+
+View detailed results here: E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee
+To visualize your results with TensorBoard, run: `tensorboard --logdir C:/Users/comp4/AppData/Local/Temp/ray/session_2024-12-03_18-12-05_285367_8748/artifacts/2024-12-03_18-12-11/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/driver_artifacts`
+
+Trial status: 1 PENDING
+Current time: 2024-12-03 18:12:12. Total running time: 0s
+Logical resource usage: 0/32 CPUs, 0/1 GPUs (0.0/1.0 accelerator_type:G)
++---------------------------------------------------------------------------+
+| Trial name     status     ...e.checkpoint_name       ...ion.learning_rate |
++---------------------------------------------------------------------------+
+| fe320f05       PENDING    ghostnet_100                        0.000460594 |
++---------------------------------------------------------------------------+
+
+Trial fe320f05 started with configuration:
++---------------------------------------------------------+
+| Trial fe320f05 config                                   |
++---------------------------------------------------------+
+| model.names                        ...e', 'fusion_mlp') |
+| model.timm_image.checkpoint_name           ghostnet_100 |
+| optimization.learning_rate                      0.00046 |
++---------------------------------------------------------+
+
+Trial status: 1 RUNNING | 1 PENDING
+Current time: 2024-12-03 18:12:42. Total running time: 30s
+Logical resource usage: 32.0/32 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:G)
++---------------------------------------------------------------------------+
+| Trial name     status     ...e.checkpoint_name       ...ion.learning_rate |
++---------------------------------------------------------------------------+
+| fe320f05       RUNNING    ghostnet_100                        0.000460594 |
+| bdcd87b5       PENDING    ...lenetv3_large_100                0.000410944 |
++---------------------------------------------------------------------------+
+
+Trial fe320f05 finished iteration 1 at 2024-12-03 18:12:48. Total running time: 36s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000000 |
+| time_this_iter_s                   27.03487 |
+| time_total_s                       27.03487 |
+| training_iteration                        1 |
+| val_f1_macro                        0.23429 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 1 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000000
+
+Trial fe320f05 finished iteration 2 at 2024-12-03 18:12:51. Total running time: 39s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000001 |
+| time_this_iter_s                    3.32307 |
+| time_total_s                       30.35794 |
+| training_iteration                        2 |
+| val_f1_macro                        0.45702 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 2 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000001
+
+Trial fe320f05 finished iteration 3 at 2024-12-03 18:12:55. Total running time: 43s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000002 |
+| time_this_iter_s                    3.38344 |
+| time_total_s                       33.74138 |
+| training_iteration                        3 |
+| val_f1_macro                        0.59023 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 3 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000002
+
+Trial fe320f05 finished iteration 4 at 2024-12-03 18:12:58. Total running time: 46s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000003 |
+| time_this_iter_s                    3.45549 |
+| time_total_s                       37.19687 |
+| training_iteration                        4 |
+| val_f1_macro                         0.7571 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 4 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000003
+
+Trial fe320f05 finished iteration 5 at 2024-12-03 18:13:02. Total running time: 50s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000004 |
+| time_this_iter_s                    3.42537 |
+| time_total_s                       40.62224 |
+| training_iteration                        5 |
+| val_f1_macro                        0.81612 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 5 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000004
+
+Trial fe320f05 finished iteration 6 at 2024-12-03 18:13:05. Total running time: 53s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000005 |
+| time_this_iter_s                    3.39511 |
+| time_total_s                       44.01736 |
+| training_iteration                        6 |
+| val_f1_macro                        0.80615 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 6 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000005
+
+Trial fe320f05 finished iteration 7 at 2024-12-03 18:13:09. Total running time: 57s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000006 |
+| time_this_iter_s                     3.4554 |
+| time_total_s                       47.47275 |
+| training_iteration                        7 |
+| val_f1_macro                        0.87748 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 7 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000006
+
+Trial status: 1 RUNNING | 1 PENDING
+Current time: 2024-12-03 18:13:12. Total running time: 1min 0s
+Logical resource usage: 32.0/32 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:G)
+Current best trial: fe320f05 with val_f1_macro=0.8774778842926025 and params={'model.names': ('timm_image', 'fusion_mlp'), 'model.timm_image.checkpoint_name': 'ghostnet_100', 'optimization.learning_rate': 0.00046059433668087436}
++------------------------------------------------------------------------------------------------------------------------+
+| Trial name     status     ...e.checkpoint_name       ...ion.learning_rate     iter     total time (s)     val_f1_macro |
++------------------------------------------------------------------------------------------------------------------------+
+| fe320f05       RUNNING    ghostnet_100                        0.000460594        7            47.4728         0.877478 |
+| bdcd87b5       PENDING    ...lenetv3_large_100                0.000410944                                              |
++------------------------------------------------------------------------------------------------------------------------+
+
+Trial fe320f05 finished iteration 8 at 2024-12-03 18:13:12. Total running time: 1min 0s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000007 |
+| time_this_iter_s                    3.52487 |
+| time_total_s                       50.99762 |
+| training_iteration                        8 |
+| val_f1_macro                        0.88481 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 8 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000007
+
+Trial fe320f05 finished iteration 9 at 2024-12-03 18:13:16. Total running time: 1min 3s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000008 |
+| time_this_iter_s                    3.43176 |
+| time_total_s                       54.42938 |
+| training_iteration                        9 |
+| val_f1_macro                        0.88048 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 9 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000008
+
+Trial fe320f05 finished iteration 10 at 2024-12-03 18:13:19. Total running time: 1min 7s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000009 |
+| time_this_iter_s                    3.38959 |
+| time_total_s                       57.81898 |
+| training_iteration                       10 |
+| val_f1_macro                        0.93027 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 10 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000009
+
+Trial fe320f05 finished iteration 11 at 2024-12-03 18:13:22. Total running time: 1min 10s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000010 |
+| time_this_iter_s                    3.43932 |
+| time_total_s                        61.2583 |
+| training_iteration                       11 |
+| val_f1_macro                        0.93733 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 11 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000010
+
+Trial fe320f05 finished iteration 12 at 2024-12-03 18:13:26. Total running time: 1min 14s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000011 |
+| time_this_iter_s                    3.55663 |
+| time_total_s                       64.81493 |
+| training_iteration                       12 |
+| val_f1_macro                        0.95617 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 12 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000011
+
+Trial fe320f05 finished iteration 13 at 2024-12-03 18:13:29. Total running time: 1min 17s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000012 |
+| time_this_iter_s                    3.44753 |
+| time_total_s                       68.26246 |
+| training_iteration                       13 |
+| val_f1_macro                        0.94375 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 13 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000012
+
+Trial fe320f05 finished iteration 14 at 2024-12-03 18:13:33. Total running time: 1min 21s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000013 |
+| time_this_iter_s                    3.44627 |
+| time_total_s                       71.70873 |
+| training_iteration                       14 |
+| val_f1_macro                           0.95 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 14 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000013
+
+Trial fe320f05 finished iteration 15 at 2024-12-03 18:13:36. Total running time: 1min 24s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000014 |
+| time_this_iter_s                     3.4228 |
+| time_total_s                       75.13153 |
+| training_iteration                       15 |
+| val_f1_macro                         0.9503 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 15 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000014
+
+Trial fe320f05 finished iteration 16 at 2024-12-03 18:13:40. Total running time: 1min 28s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000015 |
+| time_this_iter_s                    3.48424 |
+| time_total_s                       78.61577 |
+| training_iteration                       16 |
+| val_f1_macro                        0.95003 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 16 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000015
+
+Trial status: 1 RUNNING | 1 PENDING
+Current time: 2024-12-03 18:13:42. Total running time: 1min 30s
+Logical resource usage: 32.0/32 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:G)
+Current best trial: fe320f05 with val_f1_macro=0.9500321745872498 and params={'model.names': ('timm_image', 'fusion_mlp'), 'model.timm_image.checkpoint_name': 'ghostnet_100', 'optimization.learning_rate': 0.00046059433668087436}
++------------------------------------------------------------------------------------------------------------------------+
+| Trial name     status     ...e.checkpoint_name       ...ion.learning_rate     iter     total time (s)     val_f1_macro |
++------------------------------------------------------------------------------------------------------------------------+
+| fe320f05       RUNNING    ghostnet_100                        0.000460594       16            78.6158         0.950032 |
+| bdcd87b5       PENDING    ...lenetv3_large_100                0.000410944                                              |
++------------------------------------------------------------------------------------------------------------------------+
+
+Trial fe320f05 finished iteration 17 at 2024-12-03 18:13:43. Total running time: 1min 31s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000016 |
+| time_this_iter_s                    3.42071 |
+| time_total_s                       82.03648 |
+| training_iteration                       17 |
+| val_f1_macro                        0.94407 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 17 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000016
+
+Trial fe320f05 finished iteration 18 at 2024-12-03 18:13:47. Total running time: 1min 35s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000017 |
+| time_this_iter_s                    3.44348 |
+| time_total_s                       85.47996 |
+| training_iteration                       18 |
+| val_f1_macro                        0.94374 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 18 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000017
+
+Trial fe320f05 finished iteration 19 at 2024-12-03 18:13:50. Total running time: 1min 38s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000018 |
+| time_this_iter_s                    3.44523 |
+| time_total_s                        88.9252 |
+| training_iteration                       19 |
+| val_f1_macro                        0.94396 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 19 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000018
+
+Trial fe320f05 finished iteration 20 at 2024-12-03 18:13:54. Total running time: 1min 42s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000019 |
+| time_this_iter_s                    3.58628 |
+| time_total_s                       92.51148 |
+| training_iteration                       20 |
+| val_f1_macro                        0.93195 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 20 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000019
+
+Trial fe320f05 finished iteration 21 at 2024-12-03 18:13:57. Total running time: 1min 45s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000020 |
+| time_this_iter_s                    3.52715 |
+| time_total_s                       96.03864 |
+| training_iteration                       21 |
+| val_f1_macro                        0.94416 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 21 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000020
+
+Trial fe320f05 finished iteration 22 at 2024-12-03 18:14:01. Total running time: 1min 49s
++---------------------------------------------+
+| Trial fe320f05 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000021 |
+| time_this_iter_s                    3.37163 |
+| time_total_s                       99.41026 |
+| training_iteration                       22 |
+| val_f1_macro                        0.94416 |
++---------------------------------------------+
+Trial fe320f05 saved a checkpoint for iteration 22 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/fe320f05/checkpoint_000021
+
+Trial fe320f05 completed after 22 iterations at 2024-12-03 18:14:03. Total running time: 1min 51s
+
+Trial status: 1 TERMINATED | 1 PENDING
+Current time: 2024-12-03 18:14:12. Total running time: 2min 0s
+Logical resource usage: 32.0/32 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:G)
+Current best trial: fe320f05 with val_f1_macro=0.9441620707511902 and params={'model.names': ('timm_image', 'fusion_mlp'), 'model.timm_image.checkpoint_name': 'ghostnet_100', 'optimization.learning_rate': 0.00046059433668087436}
++--------------------------------------------------------------------------------------------------------------------------+
+| Trial name     status       ...e.checkpoint_name       ...ion.learning_rate     iter     total time (s)     val_f1_macro |
++--------------------------------------------------------------------------------------------------------------------------+
+| fe320f05       TERMINATED   ghostnet_100                        0.000460594       22            99.4103         0.944162 |
+| bdcd87b5       PENDING      ...lenetv3_large_100                0.000410944                                              |
++--------------------------------------------------------------------------------------------------------------------------+
+
+Trial bdcd87b5 started with configuration:
++---------------------------------------------------------+
+| Trial bdcd87b5 config                                   |
++---------------------------------------------------------+
+| model.names                        ...e', 'fusion_mlp') |
+| model.timm_image.checkpoint_name   ...lenetv3_large_100 |
+| optimization.learning_rate                      0.00041 |
++---------------------------------------------------------+
+
+Trial bdcd87b5 finished iteration 1 at 2024-12-03 18:14:40. Total running time: 2min 28s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000000 |
+| time_this_iter_s                   26.30476 |
+| time_total_s                       26.30476 |
+| training_iteration                        1 |
+| val_f1_macro                        0.25727 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 1 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000000
+
+Trial status: 1 TERMINATED | 1 RUNNING | 1 PENDING
+Current time: 2024-12-03 18:14:42. Total running time: 2min 30s
+Logical resource usage: 32.0/32 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:G)
+Current best trial: fe320f05 with val_f1_macro=0.9441620707511902 and params={'model.names': ('timm_image', 'fusion_mlp'), 'model.timm_image.checkpoint_name': 'ghostnet_100', 'optimization.learning_rate': 0.00046059433668087436}
++--------------------------------------------------------------------------------------------------------------------------+
+| Trial name     status       ...e.checkpoint_name       ...ion.learning_rate     iter     total time (s)     val_f1_macro |
++--------------------------------------------------------------------------------------------------------------------------+
+| bdcd87b5       RUNNING      ...lenetv3_large_100                0.000410944        1            26.3048         0.257268 |
+| fe320f05       TERMINATED   ghostnet_100                        0.000460594       22            99.4103         0.944162 |
+| f804beb2       PENDING      ...lenetv3_large_100                0.00013399                                               |
++--------------------------------------------------------------------------------------------------------------------------+
+
+Trial bdcd87b5 finished iteration 2 at 2024-12-03 18:14:43. Total running time: 2min 31s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000001 |
+| time_this_iter_s                    2.52308 |
+| time_total_s                       28.82784 |
+| training_iteration                        2 |
+| val_f1_macro                        0.48026 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 2 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000001
+
+Trial bdcd87b5 finished iteration 3 at 2024-12-03 18:14:46. Total running time: 2min 33s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000002 |
+| time_this_iter_s                    2.79888 |
+| time_total_s                       31.62672 |
+| training_iteration                        3 |
+| val_f1_macro                        0.65618 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 3 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000002
+
+Trial bdcd87b5 finished iteration 4 at 2024-12-03 18:14:48. Total running time: 2min 36s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000003 |
+| time_this_iter_s                    2.62849 |
+| time_total_s                       34.25522 |
+| training_iteration                        4 |
+| val_f1_macro                        0.78869 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 4 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000003
+
+Trial bdcd87b5 finished iteration 5 at 2024-12-03 18:14:51. Total running time: 2min 39s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000004 |
+| time_this_iter_s                    2.55371 |
+| time_total_s                       36.80893 |
+| training_iteration                        5 |
+| val_f1_macro                        0.83974 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 5 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000004
+
+Trial bdcd87b5 finished iteration 6 at 2024-12-03 18:14:53. Total running time: 2min 41s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000005 |
+| time_this_iter_s                    2.51366 |
+| time_total_s                       39.32259 |
+| training_iteration                        6 |
+| val_f1_macro                        0.86201 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 6 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000005
+
+Trial bdcd87b5 finished iteration 7 at 2024-12-03 18:14:56. Total running time: 2min 44s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000006 |
+| time_this_iter_s                    2.57844 |
+| time_total_s                       41.90104 |
+| training_iteration                        7 |
+| val_f1_macro                        0.85976 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 7 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000006
+
+Trial bdcd87b5 finished iteration 8 at 2024-12-03 18:14:58. Total running time: 2min 46s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000007 |
+| time_this_iter_s                    2.63447 |
+| time_total_s                       44.53551 |
+| training_iteration                        8 |
+| val_f1_macro                        0.86588 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 8 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000007
+
+Trial bdcd87b5 finished iteration 9 at 2024-12-03 18:15:01. Total running time: 2min 49s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000008 |
+| time_this_iter_s                    2.48215 |
+| time_total_s                       47.01766 |
+| training_iteration                        9 |
+| val_f1_macro                        0.87212 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 9 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000008
+
+Trial bdcd87b5 finished iteration 10 at 2024-12-03 18:15:03. Total running time: 2min 51s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000009 |
+| time_this_iter_s                     2.4918 |
+| time_total_s                       49.50946 |
+| training_iteration                       10 |
+| val_f1_macro                        0.90095 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 10 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000009
+
+Trial bdcd87b5 finished iteration 11 at 2024-12-03 18:15:06. Total running time: 2min 54s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000010 |
+| time_this_iter_s                    2.47464 |
+| time_total_s                        51.9841 |
+| training_iteration                       11 |
+| val_f1_macro                         0.8781 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 11 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000010
+
+Trial bdcd87b5 finished iteration 12 at 2024-12-03 18:15:08. Total running time: 2min 56s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000011 |
+| time_this_iter_s                    2.48668 |
+| time_total_s                       54.47077 |
+| training_iteration                       12 |
+| val_f1_macro                        0.90072 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 12 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000011
+
+Trial bdcd87b5 finished iteration 13 at 2024-12-03 18:15:11. Total running time: 2min 59s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000012 |
+| time_this_iter_s                     2.4926 |
+| time_total_s                       56.96337 |
+| training_iteration                       13 |
+| val_f1_macro                        0.89874 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 13 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000012
+
+Trial status: 1 TERMINATED | 1 RUNNING | 1 PENDING
+Current time: 2024-12-03 18:15:12. Total running time: 3min 0s
+Logical resource usage: 32.0/32 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:G)
+Current best trial: fe320f05 with val_f1_macro=0.9441620707511902 and params={'model.names': ('timm_image', 'fusion_mlp'), 'model.timm_image.checkpoint_name': 'ghostnet_100', 'optimization.learning_rate': 0.00046059433668087436}
++--------------------------------------------------------------------------------------------------------------------------+
+| Trial name     status       ...e.checkpoint_name       ...ion.learning_rate     iter     total time (s)     val_f1_macro |
++--------------------------------------------------------------------------------------------------------------------------+
+| bdcd87b5       RUNNING      ...lenetv3_large_100                0.000410944       13            56.9634         0.898736 |
+| fe320f05       TERMINATED   ghostnet_100                        0.000460594       22            99.4103         0.944162 |
+| f804beb2       PENDING      ...lenetv3_large_100                0.00013399                                               |
++--------------------------------------------------------------------------------------------------------------------------+
+
+Trial bdcd87b5 finished iteration 14 at 2024-12-03 18:15:13. Total running time: 3min 1s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000013 |
+| time_this_iter_s                    2.50499 |
+| time_total_s                       59.46837 |
+| training_iteration                       14 |
+| val_f1_macro                        0.91194 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 14 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000013
+
+Trial bdcd87b5 finished iteration 15 at 2024-12-03 18:15:16. Total running time: 3min 4s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000014 |
+| time_this_iter_s                    2.51535 |
+| time_total_s                       61.98371 |
+| training_iteration                       15 |
+| val_f1_macro                         0.9003 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 15 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000014
+
+Trial bdcd87b5 finished iteration 16 at 2024-12-03 18:15:19. Total running time: 3min 7s
++---------------------------------------------+
+| Trial bdcd87b5 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000015 |
+| time_this_iter_s                     2.5934 |
+| time_total_s                       64.57711 |
+| training_iteration                       16 |
+| val_f1_macro                        0.88375 |
++---------------------------------------------+
+Trial bdcd87b5 saved a checkpoint for iteration 16 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/bdcd87b5/checkpoint_000015
+
+Trial bdcd87b5 completed after 16 iterations at 2024-12-03 18:15:19. Total running time: 3min 7s
+
+Trial f804beb2 started with configuration:
++---------------------------------------------------------+
+| Trial f804beb2 config                                   |
++---------------------------------------------------------+
+| model.names                        ...e', 'fusion_mlp') |
+| model.timm_image.checkpoint_name   ...lenetv3_large_100 |
+| optimization.learning_rate                      0.00013 |
++---------------------------------------------------------+
+
+Trial status: 2 TERMINATED | 1 RUNNING | 1 PENDING
+Current time: 2024-12-03 18:15:42. Total running time: 3min 30s
+Logical resource usage: 32.0/32 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:G)
+Current best trial: fe320f05 with val_f1_macro=0.9441620707511902 and params={'model.names': ('timm_image', 'fusion_mlp'), 'model.timm_image.checkpoint_name': 'ghostnet_100', 'optimization.learning_rate': 0.00046059433668087436}
++--------------------------------------------------------------------------------------------------------------------------+
+| Trial name     status       ...e.checkpoint_name       ...ion.learning_rate     iter     total time (s)     val_f1_macro |
++--------------------------------------------------------------------------------------------------------------------------+
+| f804beb2       RUNNING      ...lenetv3_large_100                0.00013399                                               |
+| fe320f05       TERMINATED   ghostnet_100                        0.000460594       22            99.4103         0.944162 |
+| bdcd87b5       TERMINATED   ...lenetv3_large_100                0.000410944       16            64.5771         0.883749 |
+| 3500081f       PENDING      ...lenetv3_large_100                0.000193341                                              |
++--------------------------------------------------------------------------------------------------------------------------+
+
+Trial f804beb2 finished iteration 1 at 2024-12-03 18:15:54. Total running time: 3min 42s
++---------------------------------------------+
+| Trial f804beb2 result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000000 |
+| time_this_iter_s                   24.90134 |
+| time_total_s                       24.90134 |
+| training_iteration                        1 |
+| val_f1_macro                        0.22279 |
++---------------------------------------------+
+Trial f804beb2 saved a checkpoint for iteration 1 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/f804beb2/checkpoint_000000
+
+Trial f804beb2 completed after 1 iterations at 2024-12-03 18:15:54. Total running time: 3min 42s
+
+Trial 3500081f started with configuration:
++---------------------------------------------------------+
+| Trial 3500081f config                                   |
++---------------------------------------------------------+
+| model.names                        ...e', 'fusion_mlp') |
+| model.timm_image.checkpoint_name   ...lenetv3_large_100 |
+| optimization.learning_rate                      0.00019 |
++---------------------------------------------------------+
+
+Trial status: 3 TERMINATED | 1 RUNNING | 1 PENDING
+Current time: 2024-12-03 18:16:12. Total running time: 4min 0s
+Logical resource usage: 32.0/32 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:G)
+Current best trial: fe320f05 with val_f1_macro=0.9441620707511902 and params={'model.names': ('timm_image', 'fusion_mlp'), 'model.timm_image.checkpoint_name': 'ghostnet_100', 'optimization.learning_rate': 0.00046059433668087436}
++--------------------------------------------------------------------------------------------------------------------------+
+| Trial name     status       ...e.checkpoint_name       ...ion.learning_rate     iter     total time (s)     val_f1_macro |
++--------------------------------------------------------------------------------------------------------------------------+
+| 3500081f       RUNNING      ...lenetv3_large_100                0.000193341                                              |
+| fe320f05       TERMINATED   ghostnet_100                        0.000460594       22            99.4103         0.944162 |
+| bdcd87b5       TERMINATED   ...lenetv3_large_100                0.000410944       16            64.5771         0.883749 |
+| f804beb2       TERMINATED   ...lenetv3_large_100                0.00013399         1            24.9013         0.222794 |
+| 6b0886cf       PENDING      ghostnet_100                        0.000365178                                              |
++--------------------------------------------------------------------------------------------------------------------------+
+
+Trial 3500081f finished iteration 1 at 2024-12-03 18:16:30. Total running time: 4min 18s
++---------------------------------------------+
+| Trial 3500081f result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000000 |
+| time_this_iter_s                   25.47802 |
+| time_total_s                       25.47802 |
+| training_iteration                        1 |
+| val_f1_macro                        0.23664 |
++---------------------------------------------+
+Trial 3500081f saved a checkpoint for iteration 1 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/3500081f/checkpoint_000000
+
+Trial 3500081f completed after 1 iterations at 2024-12-03 18:16:30. Total running time: 4min 18s
+
+Trial 6b0886cf started with configuration:
++---------------------------------------------------------+
+| Trial 6b0886cf config                                   |
++---------------------------------------------------------+
+| model.names                        ...e', 'fusion_mlp') |
+| model.timm_image.checkpoint_name           ghostnet_100 |
+| optimization.learning_rate                      0.00037 |
++---------------------------------------------------------+
+
+Trial status: 4 TERMINATED | 1 RUNNING
+Current time: 2024-12-03 18:16:42. Total running time: 4min 30s
+Logical resource usage: 32.0/32 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:G)
+Current best trial: fe320f05 with val_f1_macro=0.9441620707511902 and params={'model.names': ('timm_image', 'fusion_mlp'), 'model.timm_image.checkpoint_name': 'ghostnet_100', 'optimization.learning_rate': 0.00046059433668087436}
++--------------------------------------------------------------------------------------------------------------------------+
+| Trial name     status       ...e.checkpoint_name       ...ion.learning_rate     iter     total time (s)     val_f1_macro |
++--------------------------------------------------------------------------------------------------------------------------+
+| 6b0886cf       RUNNING      ghostnet_100                        0.000365178                                              |
+| fe320f05       TERMINATED   ghostnet_100                        0.000460594       22            99.4103         0.944162 |
+| bdcd87b5       TERMINATED   ...lenetv3_large_100                0.000410944       16            64.5771         0.883749 |
+| f804beb2       TERMINATED   ...lenetv3_large_100                0.00013399         1            24.9013         0.222794 |
+| 3500081f       TERMINATED   ...lenetv3_large_100                0.000193341        1            25.478          0.236645 |
++--------------------------------------------------------------------------------------------------------------------------+
+
+Trial 6b0886cf finished iteration 1 at 2024-12-03 18:17:06. Total running time: 4min 54s
++---------------------------------------------+
+| Trial 6b0886cf result                       |
++---------------------------------------------+
+| checkpoint_dir_name       checkpoint_000000 |
+| time_this_iter_s                   26.64468 |
+| time_total_s                       26.64468 |
+| training_iteration                        1 |
+| val_f1_macro                        0.23429 |
++---------------------------------------------+
+Trial 6b0886cf saved a checkpoint for iteration 1 at: (local)E:/Current_Workdir/palm-fruit-classification/lemme_learn_the_framework_first/tmp/744330067ebe4b97b0b22fcf1b4d0fcf-automm_shopee/6b0886cf/checkpoint_000000
+
+Trial 6b0886cf completed after 1 iterations at 2024-12-03 18:17:06. Total running time: 4min 54s
+
+Trial status: 5 TERMINATED
+Current time: 2024-12-03 18:17:06. Total running time: 4min 54s
+Logical resource usage: 32.0/32 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:G)
+Current best trial: fe320f05 with val_f1_macro=0.9441620707511902 and params={'model.names': ('timm_image', 'fusion_mlp'), 'model.timm_image.checkpoint_name': 'ghostnet_100', 'optimization.learning_rate': 0.00046059433668087436}
++--------------------------------------------------------------------------------------------------------------------------+
+| Trial name     status       ...e.checkpoint_name       ...ion.learning_rate     iter     total time (s)     val_f1_macro |
++--------------------------------------------------------------------------------------------------------------------------+
+| fe320f05       TERMINATED   ghostnet_100                        0.000460594       22            99.4103         0.944162 |
+| bdcd87b5       TERMINATED   ...lenetv3_large_100                0.000410944       16            64.5771         0.883749 |
+| f804beb2       TERMINATED   ...lenetv3_large_100                0.00013399         1            24.9013         0.222794 |
+| 3500081f       TERMINATED   ...lenetv3_large_100                0.000193341        1            25.478          0.236645 |
+| 6b0886cf       TERMINATED   ghostnet_100                        0.000365178        1            26.6447         0.234288 |
++--------------------------------------------------------------------------------------------------------------------------+
+
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/5 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/5 [00:00<?, ?it/s]Predicting DataLoader 0:  20%|##        | 1/5 [00:00<00:01,  2.64it/s]Predicting DataLoader 0:  40%|####      | 2/5 [00:00<00:00,  4.96it/s]Predicting DataLoader 0:  60%|######    | 3/5 [00:00<00:00,  7.05it/s]Predicting DataLoader 0:  80%|########  | 4/5 [00:00<00:00,  8.91it/s]Predicting DataLoader 0: 100%|##########| 5/5 [00:00<00:00, 10.60it/s]Predicting DataLoader 0: 100%|##########| 5/5 [00:00<00:00, 10.60it/s]
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/5 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/5 [00:00<?, ?it/s]Predicting DataLoader 0:  20%|##        | 1/5 [00:00<00:00,  4.48it/s]Predicting DataLoader 0:  40%|####      | 2/5 [00:00<00:00,  8.05it/s]Predicting DataLoader 0:  60%|######    | 3/5 [00:00<00:00, 11.04it/s]Predicting DataLoader 0:  80%|########  | 4/5 [00:00<00:00, 13.52it/s]Predicting DataLoader 0: 100%|##########| 5/5 [00:00<00:00, 15.67it/s]Predicting DataLoader 0: 100%|##########| 5/5 [00:00<00:00, 15.62it/s]
+Predicting: |          | 0/? [00:00<?, ?it/s]Predicting:   0%|          | 0/5 [00:00<?, ?it/s]Predicting DataLoader 0:   0%|          | 0/5 [00:00<?, ?it/s]Predicting DataLoader 0:  20%|##        | 1/5 [00:00<00:00,  4.69it/s]Predicting DataLoader 0:  40%|####      | 2/5 [00:00<00:00,  5.56it/s]Predicting DataLoader 0:  60%|######    | 3/5 [00:00<00:00,  7.84it/s]Predicting DataLoader 0:  80%|########  | 4/5 [00:00<00:00,  9.84it/s]Predicting DataLoader 0: 100%|##########| 5/5 [00:00<00:00, 11.63it/s]Predicting DataLoader 0: 100%|##########| 5/5 [00:00<00:00, 11.63it/s]
