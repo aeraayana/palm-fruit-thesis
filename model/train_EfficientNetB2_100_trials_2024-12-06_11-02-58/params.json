@@ -1,0 +1,23 @@
+{
+  "env.batch_size": 8,
+  "model.names": [
+    "timm_image",
+    "fusion_mlp"
+  ],
+  "model.timm_image.checkpoint_name": "efficientnet_b2",
+  "optimization.focal_loss.alpha": [
+    2.1965174129353233,
+    1.1964769647696476,
+    0.44327309236947793,
+    5.660256410256411,
+    0.5145687645687645,
+    3.003401360544218
+  ],
+  "optimization.focal_loss.gamma": 2.633975426321225,
+  "optimization.focal_loss.reduction": "sum",
+  "optimization.learning_rate": 0.00029561223322422184,
+  "optimization.loss_function": "focal_loss",
+  "optimization.max_epochs": 14,
+  "optimization.optim_type": "adamw",
+  "optimization.top_k_average_method": "best"
+}
